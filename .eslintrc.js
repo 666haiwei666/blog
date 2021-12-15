@@ -1,5 +1,9 @@
 module.exports = {
   root: true,
+  globals: {
+    $: true,
+    WOW: true,
+  },
   env: {
     browser: true,
     node: true,
